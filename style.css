@@ -1,0 +1,298 @@
+body {
+  margin: 0;
+  font-family: Helevetica;
+  background-color: #4056a1;
+}
+
+section {
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.white {
+  color: white;
+}
+
+.gray {
+  color: #8c9498;
+}
+.nav {
+  background-color: #1d1145;
+  width: 100%;
+  height: 100px;
+}
+
+.container {
+  margin: auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+.menu {
+    float: right;
+    width: 300px;
+  }
+
+.menu > li{
+    display: inline-block;
+    padding-right: 20px;
+    padding-top: 40px;
+    font-size: 25px;
+    transition: 0.3s all ease-in-out 0s;
+    -webkit-transition: 0.3s all ease-in-out 0s;
+    -moz-transition: 0.3s all ease-in-out 0s;
+    -o-transition: 0.3s all ease-in-out 0s;
+  }
+
+  .menu li:hover {
+    color:  #0db4b9;
+    transition: 0.3s all ease-in-out 0s;
+    -webkit-transition: 0.3s all ease-in-out 0s;
+    -moz-transition: 0.3s all ease-in-out 0s;
+    -o-transition: 0.3s all ease-in-out 0s;
+  }
+
+.Logo {
+  width:  320px;
+  float: left;
+}
+
+.photo {
+  width: 80px;
+  margin-top: 3%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+}
+
+header {
+  background-image: url('/Users/aaronahmad/Desktop/Web Dev practice/Portfolio Website/IMG_4025.JPG');
+  height: 700px;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-title {
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+  background-color: #1d1145;
+  width: 560px;
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.header-subtitle {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: #4056A1;
+  width: 520px;
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+  margin-top: 80px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.title-wrapper {
+  padding-top: 300px;
+  height: 300px;
+  width: 100%;
+  margin: auto;
+}
+
+p, h1, h3 {
+  margin: 0;
+}
+
+h3 {
+padding-top: 25px;
+padding-bottom: 0px;
+text-align: center;
+}
+
+.call-to-action {
+  background-color: #de493c;
+  width: 100%;
+  height: 200px;
+}
+
+.section-title {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.intro > p {
+  color: white;
+}
+
+.intro {
+  padding-top: 40px;
+  width: 50%;
+  float:left;
+  text-align: center;
+}
+
+.right {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.about p {
+  color: white;
+  font-size: 20px;
+  margin-top: 0px;
+  line-height: 25px;
+  text-align: center;
+  padding: 10px 30px;
+  border: 5px solid white;
+  margin: 10px 10px;
+}
+
+.call-button {
+color: white;
+font-size: 30px;
+text-transform: uppercase;
+text-decoration: none;
+border: 5px solid white;
+padding: 10px 30px;
+transition: 0.3s all ease-in-out 0s;
+-webkit-transition: 0.3s all ease-in-out 0s;
+-moz-transition: 0.3s all ease-in-out 0s;
+-o-transition: 0.3s all ease-in-out 0s;
+}
+
+.call-button:hover{
+background-color: #4056A1;
+transition: 0.3s all ease-in-out 0s;
+-webkit-transition: 0.3s all ease-in-out 0s;
+-moz-transition: 0.3s all ease-in-out 0s;
+-o-transition: 0.3s all ease-in-out 0s;
+}
+
+.intro p {
+  color: white;
+  font-size: 25px;
+  margin-top: 0px;
+  line-height: 40px;
+}
+
+.column {
+  width: 50%;
+  float: left;
+}
+
+.column img{
+  cursor: pointer;
+  max-width: 80%;
+  margin: auto;
+  display: block;
+  opacity: 0.8;
+  padding: 30px;
+  transform: scale(0.7);
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  -o-transform: scale(0.7);
+  transition: 0.3s all ease-in-out 0s;
+  -webkit-transition: 0.3s all ease-in-out 0s;
+  -moz-transition: 0.3s all ease-in-out 0s;
+  -o-transition: 0.3s all ease-in-out 0s;
+}
+
+.column img:hover {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  transition: 0.3s all ease-in-out 0s;
+  -webkit-transition: 0.3s all ease-in-out 0s;
+  -moz-transition: 0.3s all ease-in-out 0s;
+  -o-transition: 0.3s all ease-in-out 0s;
+}
+
+.column img.bigger{
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  transition: 0.3s all ease-in-out 0s;
+  -webkit-transition: 0.3s all ease-in-out 0s;
+  -moz-transition: 0.3s all ease-in-out 0s;
+  -o-transition: 0.3s all ease-in-out 0s;
+}
+
+.testimonials {
+  background-color: #ebebeb;
+  height: 150px;
+}
+
+.testimonials  p {
+  font-size: 20px;
+  line-height: 55px;
+  text-align: center;
+}
+
+.map {
+  background-image: url('/Users/aaronahmad/Desktop/Web Dev practice/Portfolio Website/map-for-site.png'); ;
+  background-size: cover;
+  height: 1000px;
+}
+
+.map-title {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #1d1145;
+  height: 100px;
+}
+
+.footer-menu{
+  padding-top: 30px;
+  padding-left: 5px;
+}
+
+.footer-menu li{
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  display: inline-block;
+  padding-right: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s all ease-in-out 0s;
+  -webkit-transition: 0.3s all ease-in-out 0s;
+  -moz-transition: 0.3s all ease-in-out 0s;
+  -o-transition: 0.3s all ease-in-out 0s;
+}
+
+.footer-menu li:hover {
+  color: #0db4b9;
+  transition: 0.3s all ease-in-out 0s;
+  -webkit-transition: 0.3s all ease-in-out 0s;
+  -moz-transition: 0.3s all ease-in-out 0s;
+  -o-transition: 0.3s all ease-in-out 0s;
+}
