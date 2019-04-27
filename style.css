@@ -255,7 +255,7 @@ transition: 0.3s all ease-in-out 0s;
 }
 
 .map {
-  background-image: url('/Users/aaronahmad/Desktop/Web Dev practice/Portfolio Website/map-for-site.png'); ;
+  background-image: url('map-for-site.png'); ;
   background-size: cover;
   height: 1000px;
 }
