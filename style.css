@@ -29,7 +29,7 @@ a {
 .nav {
   background-color: #1d1145;
   width: 100%;
-  height: 100px;
+  height: 120px;
 }
 
 .container {
@@ -46,7 +46,7 @@ a {
 .menu > li{
     display: inline-block;
     padding-right: 20px;
-    padding-top: 40px;
+    padding-top: 60px;
     font-size: 25px;
     transition: 0.3s all ease-in-out 0s;
     -webkit-transition: 0.3s all ease-in-out 0s;
@@ -68,8 +68,29 @@ a {
 }
 
 .photo {
-  width: 80px;
+  width: 70px;
   margin-top: 3%;
+  border-radius: 50%;
+  height: 100px;
+  object-fit: contain;
+  cursor: pointer;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  transition: 0.3s all ease-in-out 0s;
+  -webkit-transition: 0.3s all ease-in-out 0s;
+  -moz-transition: 0.3s all ease-in-out 0s;
+  -o-transition: 0.3s all ease-in-out 0s;
+}
+
+.photo:hover{
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transition: 0.3s all ease-in-out 0s;
+  -webkit-transition: 0.3s all ease-in-out 0s;
+  -moz-transition: 0.3s all ease-in-out 0s;
+  -o-transition: 0.3s all ease-in-out 0s;
 }
 
 ul {
@@ -82,7 +103,7 @@ ul {
 }
 
 header {
-  background-image: url('IMG_4025.JPG');
+  background-image: url('/Users/aaronahmad/Desktop/Web Dev practice/Portfolio Website/IMG_4025.JPG');
   height: 700px;
   width: 100%;
   background-position: center center;
@@ -255,7 +276,7 @@ transition: 0.3s all ease-in-out 0s;
 }
 
 .map {
-  background-image: url('map-for-site.png'); ;
+  background-image: url('/Users/aaronahmad/Desktop/Web Dev practice/Portfolio Website/map-for-site.png'); ;
   background-size: cover;
   height: 1000px;
 }
