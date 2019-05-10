@@ -103,7 +103,7 @@ ul {
 }
 
 header {
-  background-image: url('Portfolio-Website/map-for-site.png');
+  background-image: url('Portfolio-Website/IMG_4025.JPG ');
   height: 700px;
   width: 100%;
   background-position: center center;
@@ -276,7 +276,7 @@ transition: 0.3s all ease-in-out 0s;
 }
 
 .map {
-  background-image: url('/Users/aaronahmad/Desktop/Web Dev practice/Portfolio Website/map-for-site.png'); ;
+  background-image: url('Portfolio-Website/map-for-site.png'); ;
   background-size: cover;
   height: 1000px;
 }
