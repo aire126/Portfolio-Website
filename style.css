@@ -1,7 +1,9 @@
 body {
-  margin: 0;
+  margin: 0px;
   font-family: Helevetica;
   background-color: #4056a1;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 section {
@@ -27,6 +29,10 @@ a {
   color: #8c9498;
 }
 .nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
   background-color: #1d1145;
   width: 100%;
   height: 120px;
@@ -39,13 +45,18 @@ a {
 }
 
 .menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     float: right;
     width: 300px;
   }
 
 .menu > li{
-    display: inline-block;
-    padding-right: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Indie Flower', cursive;
     padding-top: 60px;
     font-size: 25px;
     transition: 0.3s all ease-in-out 0s;
@@ -112,11 +123,12 @@ header {
 }
 
 .header-title {
+  font-family: 'Stylish', sans-serif;
   color: white;
   font-size: 50px;
   text-transform: uppercase;
   background-color: #1d1145;
-  width: 560px;
+  width: 400px;
   text-align: center;
   margin: auto;
   font-weight: bold;
@@ -124,6 +136,7 @@ header {
 }
 
 .header-subtitle {
+  font-family: 'Stylish', sans-serif;
   color: white;
   font-size: 20px;
   text-transform: uppercase;
@@ -161,6 +174,7 @@ text-align: center;
 }
 
 .section-title {
+  font-family: 'Stylish', sans-serif;
   font-size: 30px;
   text-transform: uppercase;
 }
@@ -182,6 +196,7 @@ text-align: center;
 }
 
 .about p {
+  font-family: 'Stylish', sans-serif;
   color: white;
   font-size: 20px;
   margin-top: 0px;
@@ -193,6 +208,7 @@ text-align: center;
 }
 
 .call-button {
+font-family: 'Stylish', sans-serif;
 color: white;
 font-size: 30px;
 text-transform: uppercase;
@@ -270,6 +286,7 @@ transition: 0.3s all ease-in-out 0s;
 }
 
 .testimonials  p {
+  font-family: 'Stylish', sans-serif;
   font-size: 20px;
   line-height: 55px;
   text-align: center;
@@ -279,11 +296,6 @@ transition: 0.3s all ease-in-out 0s;
   background-image: url('map-for-site.png');
   background-size: cover;
   height: 1000px;
-}
-
-.map-title {
-  font-size: 30px;
-  text-transform: uppercase;
 }
 
 footer {
