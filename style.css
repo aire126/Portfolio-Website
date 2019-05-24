@@ -81,10 +81,12 @@ a {
 .photo {
   width: 70px;
   margin-top: 3%;
+  margin-left: 15%;
   border-radius: 50%;
   height: 100px;
   object-fit: contain;
   cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -o-transform: scale(1);
@@ -133,6 +135,7 @@ header {
   margin: auto;
   font-weight: bold;
   padding: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .header-subtitle {
@@ -147,6 +150,7 @@ header {
   font-weight: bold;
   margin-top: 80px;
   padding: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .title-wrapper {
@@ -164,6 +168,7 @@ h4{
   text-align: center;
   padding-bottom: 25px;
 }
+
 
 .image-title{
   font-family: 'Stylish', sans-serif;
@@ -200,8 +205,12 @@ text-align: center;
 }
 
 .right {
-  text-align: center;
   margin-top: 40px;
+  margin-left: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
 }
 
 .about p {
@@ -214,6 +223,71 @@ text-align: center;
   padding: 10px 30px;
   border: 5px solid white;
   margin: 10px 10px;
+}
+
+.linkedin {
+  background-image: url("ln-blue.png");
+  background-position: center;
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 20%;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  transition: 0.3s all ease-in-out 0s;
+  -webkit-transition: 0.3s all ease-in-out 0s;
+  -moz-transition: 0.3s all ease-in-out 0s;
+  -o-transition: 0.3s all ease-in-out 0s;
+}
+
+.linkedin:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transition: 0.3s all ease-in-out 0s;
+  -webkit-transition: 0.3s all ease-in-out 0s;
+  -moz-transition: 0.3s all ease-in-out 0s;
+  -o-transition: 0.3s all ease-in-out 0s;
+}
+
+.github {
+  background-image: url("gh-cat.png");
+  background-position: center;
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 20%;
+  cursor: pointer;
+  background-color: black;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  transition: 0.3s all ease-in-out 0s;
+  -webkit-transition: 0.3s all ease-in-out 0s;
+  -moz-transition: 0.3s all ease-in-out 0s;
+  -o-transition: 0.3s all ease-in-out 0s;
+}
+
+.github:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transition: 0.3s all ease-in-out 0s;
+  -webkit-transition: 0.3s all ease-in-out 0s;
+  -moz-transition: 0.3s all ease-in-out 0s;
+  -o-transition: 0.3s all ease-in-out 0s;
 }
 
 .call-button {
@@ -257,7 +331,7 @@ transition: 0.3s all ease-in-out 0s;
   display: block;
   opacity: 0.8;
   padding: 30px;
-  transform: scale(0.8);
+  transform: scale(0.9);
   -webkit-transform: scale(0.9);
   -moz-transform: scale(0.9);
   -o-transform: scale(0.9);
@@ -286,8 +360,9 @@ transition: 0.3s all ease-in-out 0s;
 .testimonials  p {
   font-family: 'Stylish', sans-serif;
   font-size: 20px;
-  line-height: 55px;
+  line-height: 45px;
   text-align: center;
+  margin: 5px;
 }
 
 .map {
@@ -303,7 +378,16 @@ footer {
 
 .footer-menu{
   padding-top: 30px;
-  padding-left: 5px;
+  padding-left: 5%;
+  float: left;
+}
+
+.footer-right {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  float: right;
+  width: 30%;
 }
 
 .footer-menu li{
@@ -312,7 +396,7 @@ footer {
   font-weight: 100;
   display: inline-block;
   padding-right: 10px;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   transition: 0.3s all ease-in-out 0s;
   -webkit-transition: 0.3s all ease-in-out 0s;
@@ -326,4 +410,24 @@ footer {
   -webkit-transition: 0.3s all ease-in-out 0s;
   -moz-transition: 0.3s all ease-in-out 0s;
   -o-transition: 0.3s all ease-in-out 0s;
+}
+
+@media only screen and (max-width: 640px) {
+  .container {
+    margin: auto;
+    width: 100%;
+    max-width: 640px;
+  }
+  .Logo {
+    max-width: 100px;
+  }
+  .vanish {
+    display: none;
+  }
+  .testimonials p {
+    line-height: 40px;
+  }
+  p {
+    margin: 5px;
+  }
 }
